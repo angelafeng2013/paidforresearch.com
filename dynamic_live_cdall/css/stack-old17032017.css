@@ -1,0 +1,488 @@
+.border-5 {
+    border: 5px solid #636363;
+    padding: 10px 0 20px;
+}
+
+.quote1 {
+    /*-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-delay: .8s;*/
+    position: absolute;
+    top: 185px;
+    left: 625px;
+    opacity: 0;
+}
+
+.quote2 {
+    /*-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-delay: 0;*/
+    position: absolute;
+    top: 186px;
+    left: 595px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.quote3 {
+    /*-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-delay: .5s;*/
+    position: absolute;
+    right: 0;
+    top: 188px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.quote1.move {
+    top: 20px;
+    left: 135px;
+    opacity: 1;
+}
+
+.quote2.move {
+    top: 10px;
+    left: 296px;
+    opacity: 1;
+}
+
+.quote3.move {
+    top: 35px;
+    right: 105px;
+    opacity: 1;
+}
+
+.fade-content {
+    opacity: 0;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    transition-delay: 2s;
+}
+
+.fade-content.move {
+    opacity: 1;
+}
+
+/*#hostedform_main input[type="radio"] + label.class-yes {
+	background: #565656;
+    font-size: 25px !important;
+    color: #fff;
+    line-height: normal;
+    border-radius: 0;
+    height: auto;
+    width: 185px;
+    padding: 17px 0;
+}
+#hostedform_main input[type="radio"] + label.class-no {
+	background: #565656;
+    font-size: 25px !important;
+    color: #fff;
+    line-height: normal;
+    border-radius: 0;
+    height: auto;
+    width: 185px;
+    padding: 17px 0;
+}*/
+#form_box label {
+    font-size: 18px;
+    color: #565656;
+    line-height: 32px;
+}
+
+/*
+.form-input-diabetes { text-align: center; }
+.form-input-diabetes > input[type="radio"] + label.diabetes-yes { font-size: 0 !important; }
+.form-input-diabetes > input[type="radio"] + label.diabetes-no { font-size: 0 !important; }
+#contentbox #form_box { width: 600px; }
+.form-input-section.column2 { clear: none; float: left; width: 50%; }
+.form-input-section.column2 label { width: 108px !important; padding-right: 0 !important; }
+.form-input-section.column2 input[type="text"] { width: 180px; padding: 8px; }
+	
+.form-input-section.column2-email { clear: none; float: left; width: 100%; }
+.form-input-section.column2-email label { width: 108px !important; padding-right: 0 !important; }
+.form-input-section.column2-email input[type="text"] { width: 480px; padding: 8px; }
+
+.form-input-section { position: relative; margin-bottom: 15px; }
+.form-input-section.agree-check { font-size: 18px; color: #565656; text-align: left; }
+.form-input-section.agree-check label.error { height: 0 !important; width: 0 !important; margin: 0 !important; }
+.form-input-gender > label { vertical-align: top; }
+.form-input-gender > input[type="radio"] + label.gender-m { font-size: 0 !important; }
+.form-input-gender > input[type="radio"] + label.gender-f { font-size: 0 !important; }
+.agree-check input[type="checkbox"] + label { font-size: 0 !important; }
+
+.form-input-section label { width: 108px !important; padding-right: 0 !important; float: none; }
+.form-input-section input[type="text"] { width: 180px; padding: 8px; border: 2px solid #565656; background: #fff; float: none; }
+.form-select-birth { display: inline-block; }	
+.form-input-section select { display: inline-block; float: none; width: 65%; padding: 8px; border: 2px solid #565656; background: #fff; }	
+.form-input-gender { display: inline-block; }
+.form-select-birth .selectmonthcont { display: inline-block; float: none; position: relative;  }	
+.form-select-birth .selectdaycont { display: inline-block; float: none; position: relative;  }	
+.form-select-birth .selectyearcont { display: inline-block; float: none; position: relative;  }
+#form_box .error[for="zip"] { font-size: 12px; position: absolute; }
+.form-select-birth label.error { left: 0; bottom: -15px; font-size: 12px !important; height: auto !important; line-height: 18px !important; position: absolute; width: auto !important; }
+.ethnicity1 label.error { font-size: 12px !important; position: absolute; width: auto !important; }
+.agree-check label { width: 83px !important; }
+#contentbox div#form_box form .form-select-birth .selectmonthcont select { width: 70px !important; }
+#contentbox div#form_box form .form-select-birth .selectdaycont select { width: 70px !important; }*/
+.style1 {
+    color: red;
+    font-weight: 700;
+}
+
+.redtext {
+    color: red;
+}
+
+.separator {
+    border-bottom: 5px dotted #636363;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+select.error,textarea.error,input[type="text"].error {
+    border: red 2px solid !important;
+}
+
+input[type="checkbox"].error + label {
+    color: red;
+}
+
+.content-desktop2 {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.content-desktop2 .home-img {
+    float: left;
+    padding-right: 35px;
+}
+
+.content-desktop2 .text-content {
+    padding: 15px 0 0;
+    text-align: left;
+}
+
+.content-desktop2 .text-content p {
+    font-size: 17px;
+    color: #515151;
+}
+
+.content-mobile2 {
+    display: none;
+}
+
+.new-yesno-button > input[type="radio"] {
+    display: none;
+}
+
+.new-yesno-button > input[type="radio"] + label.class-yes {
+    width: 84px !important;
+    height: 34px !important;
+/*background: url(../images/no_yes_button.png) no-repeat 0 0;*/
+    background-image: url(../images/no_yes_button.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    margin-bottom: 5px;
+}
+
+.new-yesno-button > input[type=radio]:checked + label.class-yes {
+    width: 84px !important;
+    height: 34px !important;
+/*background: url(../images/no_yes_button.png) no-repeat 0 -34px;*/
+    background-image: url(../images/no_yes_button.png);
+    background-repeat: no-repeat;
+    background-position: 0 -34px;
+}
+
+.new-yesno-button > input[type=radio] + label.class-no {
+    width: 84px !important;
+    height: 34px !important;
+/*background: url(../images/no_yes_button.png) no-repeat -84px 0;*/
+    background-image: url(../images/no_yes_button.png);
+    background-repeat: no-repeat;
+    background-position: -84px 0;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    margin-bottom: 5px;
+}
+
+.new-yesno-button > input[type=radio]:checked + label.class-no {
+    width: 84px !important;
+    height: 34px !important;
+/*background: url(../images/no_yes_button.png) no-repeat -84px -34px;*/
+    background-image: url(../images/no_yes_button.png);
+    background-repeat: no-repeat;
+    background-position: -84px -34px;
+}
+
+/*table{
+  width: 100%;
+}*/
+#formtable select {
+    width: 100px;
+}
+
+/*label label.error {
+    left: 120px;
+}*/
+.debthelpform {
+}
+
+.debthelpform label {
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+}
+
+.debthelpform input {
+    display: inline-block;
+    width: 40%;
+    padding: 2px;
+}
+
+.debthelpform select {
+    display: inline-block;
+    width: 42% !important;
+}
+
+@media screen and (max-width: 859px) {
+    #contentbox_main {
+        padding-top: 125px !important;
+        padding-bottom: 160px !important;
+    }
+
+    .fade-content {
+        opacity: 1 !important;
+    }
+
+    .quote1 {
+        width: 140px;
+    }
+
+    .quote2 {
+        width: 170px;
+    }
+
+    .quote3 {
+        width: 150px;
+    }
+
+    .quote1.move {
+        right: auto;
+        left: 30%;
+        margin-left: -70px;
+        top: 50px;
+    }
+
+    .quote2.move {
+        right: auto;
+        left: 50%;
+        margin-left: -85px;
+        top: 10px;
+    }
+
+    .quote3.move {
+        right: auto;
+        left: 65%;
+        margin-left: -75px;
+        top: 55px;
+    }
+
+    #hostedform_main input[type="radio"] + label.class-yes {
+        background: url(../images/yes-button.png) no-repeat center #458b04;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 15px;
+        width: 90px;
+        height: 28px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        font-size: 0 !important;
+    }
+
+    #hostedform_main input[type="radio"] + label.class-no {
+        background: url(../images/no-button.png) no-repeat center #c61e2f;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 15px;
+        width: 90px;
+        height: 28px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        font-size: 0 !important;
+    }
+
+    .form-input-section.column2 {
+        width: 100%;
+    }
+
+    .form-input-section.column2 label {
+        width: 40% !important;
+    }
+
+    .form-input-section.column2-email label {
+        width: 40% !important;
+    }
+
+    .form-input-section.column2 input[type="text"] {
+        width: 60%;
+    }
+
+    .form-input-section.column2-email input[type="text"] {
+        width: 60%;
+    }
+
+    .form-input-section.column2-email {
+        width: 100%;
+    }
+
+    #form_box label.error {
+        text-align: right;
+    }
+
+    #form_box label {
+        line-height: normal;
+    }
+
+    .form-input-section {
+        margin-bottom: 15px;
+    }
+
+    .form-input-section label {
+        float: left !important;
+        width: 40% !important;
+    }
+
+    .form-input-section input[type="text"] {
+        float: left !important;
+        width: 60% !important;
+    }
+
+    .form-select-birth {
+        float: left !important;
+        width: 60% !important;
+    }
+
+    .form-input-gender {
+        float: left !important;
+        width: 60% !important;
+    }
+
+    .form-input-section select {
+        float: left !important;
+        width: 60% !important;
+    }
+
+    .form-input-gender > input[type="radio"] + label.gender-m {
+        float: none !important;
+    }
+
+    .form-input-gender > input[type="radio"] + label.gender-f {
+        float: none !important;
+    }
+
+    #form_box .error[for="zip"] {
+        bottom: -15px;
+        right: 0;
+    }
+
+    #form_box label.error {
+        bottom: -15px;
+        right: 0;
+        position: absolute;
+    }
+
+    .agree-check label {
+        width: 83px !important;
+    }
+
+    .form-input-diabetes label {
+        float: none !important;
+    }
+
+    .wrapper {
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .submit_button_form {
+        width: 80%;
+    }
+
+    #contentbox table tr td {
+        padding: 5px 0 !important;
+    }
+
+    #formtable td > label {
+        padding: 0 !important;
+    }
+
+    table#formtable tr td {
+        font-size: 10px !important;
+    }
+
+    #formtable select {
+        width: 132px;
+    }
+
+    .debthelpform select {
+        width: 42% !important;
+    }
+
+    #progress_bar_holder {
+        padding-left: 0;
+    }
+
+    .border-5 {
+        border: none;
+    }
+
+    .fixed-button {
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+
+    #contentbox div#form_box form .form-select-birth .selectmonthcont select {
+        width: 50px !important;
+    }
+
+    #contentbox div#form_box form .form-select-birth .selectdaycont select {
+        width: 50px !important;
+    }
+
+    #contentbox div#form_box form .form-select-birth .selectyearcont select {
+        width: 65px !important;
+    }
+
+    .form-select-birth label.error {
+        font-size: 9px !important;
+    }
+}

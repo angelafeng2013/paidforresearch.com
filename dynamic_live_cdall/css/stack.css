@@ -1,0 +1,1113 @@
+.border-5 {
+    border: 5px solid #636363;
+    padding: 10px 0 20px;
+}
+
+.quote1 {
+    /*-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-delay: .8s;*/
+    position: absolute;
+    top: 185px;
+    left: 625px;
+    opacity: 0;
+}
+
+.quote2 {
+    /*-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-delay: 0;*/
+    position: absolute;
+    top: 186px;
+    left: 595px;
+    z-index: 2;
+    opacity: 0;
+}
+
+.quote3 {
+    /*-moz-transition: all 1s ease-in-out;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+    transition-delay: .5s;*/
+    position: absolute;
+    right: 0;
+    top: 188px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.quote1.move {
+    top: 20px;
+    left: 135px;
+    opacity: 1;
+}
+
+.quote2.move {
+    top: 10px;
+    left: 296px;
+    opacity: 1;
+}
+
+.quote3.move {
+    top: 35px;
+    right: 105px;
+    opacity: 1;
+}
+
+.fade-content {
+    opacity: 0;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    transition-delay: 2s;
+}
+
+.fade-content.move {
+    opacity: 1;
+}
+
+/*#hostedform_main input[type="radio"] + label.class-yes {
+	background: #565656;
+    font-size: 25px !important;
+    color: #fff;
+    line-height: normal;
+    border-radius: 0;
+    height: auto;
+    width: 185px;
+    padding: 17px 0;
+}
+#hostedform_main input[type="radio"] + label.class-no {
+	background: #565656;
+    font-size: 25px !important;
+    color: #fff;
+    line-height: normal;
+    border-radius: 0;
+    height: auto;
+    width: 185px;
+    padding: 17px 0;
+}*/
+#form_box label {
+    font-size: 18px;
+    color: #565656;
+    line-height: 32px;
+}
+
+/*
+.form-input-diabetes { text-align: center; }
+.form-input-diabetes > input[type="radio"] + label.diabetes-yes { font-size: 0 !important; }
+.form-input-diabetes > input[type="radio"] + label.diabetes-no { font-size: 0 !important; }
+#contentbox #form_box { width: 600px; }
+.form-input-section.column2 { clear: none; float: left; width: 50%; }
+.form-input-section.column2 label { width: 108px !important; padding-right: 0 !important; }
+.form-input-section.column2 input[type="text"] { width: 180px; padding: 8px; }
+	
+.form-input-section.column2-email { clear: none; float: left; width: 100%; }
+.form-input-section.column2-email label { width: 108px !important; padding-right: 0 !important; }
+.form-input-section.column2-email input[type="text"] { width: 480px; padding: 8px; }
+
+.form-input-section { position: relative; margin-bottom: 15px; }
+.form-input-section.agree-check { font-size: 18px; color: #565656; text-align: left; }
+.form-input-section.agree-check label.error { height: 0 !important; width: 0 !important; margin: 0 !important; }
+.form-input-gender > label { vertical-align: top; }
+.form-input-gender > input[type="radio"] + label.gender-m { font-size: 0 !important; }
+.form-input-gender > input[type="radio"] + label.gender-f { font-size: 0 !important; }
+.agree-check input[type="checkbox"] + label { font-size: 0 !important; }
+
+.form-input-section label { width: 108px !important; padding-right: 0 !important; float: none; }
+.form-input-section input[type="text"] { width: 180px; padding: 8px; border: 2px solid #565656; background: #fff; float: none; }
+.form-select-birth { display: inline-block; }	
+.form-input-section select { display: inline-block; float: none; width: 65%; padding: 8px; border: 2px solid #565656; background: #fff; }	
+.form-input-gender { display: inline-block; }
+.form-select-birth .selectmonthcont { display: inline-block; float: none; position: relative;  }	
+.form-select-birth .selectdaycont { display: inline-block; float: none; position: relative;  }	
+.form-select-birth .selectyearcont { display: inline-block; float: none; position: relative;  }
+#form_box .error[for="zip"] { font-size: 12px; position: absolute; }
+.form-select-birth label.error { left: 0; bottom: -15px; font-size: 12px !important; height: auto !important; line-height: 18px !important; position: absolute; width: auto !important; }
+.ethnicity1 label.error { font-size: 12px !important; position: absolute; width: auto !important; }
+.agree-check label { width: 83px !important; }
+#contentbox div#form_box form .form-select-birth .selectmonthcont select { width: 70px !important; }
+#contentbox div#form_box form .form-select-birth .selectdaycont select { width: 70px !important; }*/
+.style1 {
+    color: red;
+    font-weight: 700;
+}
+
+.redtext {
+    color: red;
+}
+
+.separator {
+    border-bottom: 5px dotted #B8B8B8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 60px;
+    margin-right: 50px;
+}
+
+select.error,textarea.error,input[type="text"].error {
+    border: red 2px solid !important;
+}
+
+/*table input[type="checkbox"].error + label {
+    color: red;
+    display: inline-block !important;
+    width: 8px;
+    height: 8px;
+    background: #ff0000;
+    border-radius: 4px;
+    margin-right: 6px;
+}*/
+
+.content-desktop2 {
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.content-desktop2 .home-img {
+    float: left;
+    padding-right: 35px;
+}
+
+.content-desktop2 .text-content {
+    padding: 15px 0 0;
+    text-align: left;
+}
+
+.content-desktop2 .text-content p {
+    font-size: 17px;
+    color: #515151;
+}
+
+.content-mobile2 {
+    display: none;
+}
+
+.new-yesno-button > input[type="radio"] {
+    display: none;
+}
+
+.new-yesno-button > input[type="radio"] + label.class-yes {
+    width: 84px !important;
+    height: 34px !important;
+/*background: url(../images/no_yes_button.png) no-repeat 0 0;*/
+    background-image: url(../images/no_yes_button.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    margin-bottom: 5px;
+}
+
+.new-yesno-button > input[type=radio]:checked + label.class-yes {
+    width: 84px !important;
+    height: 34px !important;
+/*background: url(../images/no_yes_button.png) no-repeat 0 -34px;*/
+    background-image: url(../images/no_yes_button.png);
+    background-repeat: no-repeat;
+    background-position: 0 -34px;
+}
+
+.new-yesno-button > input[type=radio] + label.class-no {
+    width: 84px !important;
+    height: 34px !important;
+/*background: url(../images/no_yes_button.png) no-repeat -84px 0;*/
+    background-image: url(../images/no_yes_button.png);
+    background-repeat: no-repeat;
+    background-position: -84px 0;
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+    margin-bottom: 5px;
+}
+
+.new-yesno-button > input[type=radio]:checked + label.class-no {
+    width: 84px !important;
+    height: 34px !important;
+/*background: url(../images/no_yes_button.png) no-repeat -84px -34px;*/
+    background-image: url(../images/no_yes_button.png);
+    background-repeat: no-repeat;
+    background-position: -84px -34px;
+}
+
+/*table{
+  width: 100%;
+}*/
+#formtable select {
+    width: 100px;
+}
+
+/*label label.error {
+    left: 120px;
+}*/
+.debthelpform {
+}
+
+.debthelpform label {
+    display: inline-block;
+    width: 48%;
+    text-align: right;
+}
+
+.debthelpform input {
+    display: inline-block;
+    width: 40%;
+    padding: 2px;
+}
+
+.debthelpform select {
+    display: inline-block;
+    width: 42% !important;
+}
+
+@media screen and (max-width: 859px) {
+    #contentbox_main {
+        padding-top: 125px !important;
+        /* padding-bottom: 160px !important; */
+    }
+
+    .fade-content {
+        opacity: 1 !important;
+    }
+
+    .quote1 {
+        width: 140px;
+    }
+
+    .quote2 {
+        width: 170px;
+    }
+
+    .quote3 {
+        width: 150px;
+    }
+
+    .quote1.move {
+        right: auto;
+        left: 30%;
+        margin-left: -70px;
+        top: 50px;
+    }
+
+    .quote2.move {
+        right: auto;
+        left: 50%;
+        margin-left: -85px;
+        top: 10px;
+    }
+
+    .quote3.move {
+        right: auto;
+        left: 65%;
+        margin-left: -75px;
+        top: 55px;
+    }
+
+    #hostedform_main input[type="radio"] + label.class-yes {
+        background: url(../images/yes-button.png) no-repeat center #458b04;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 15px;
+        width: 90px;
+        height: 28px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        font-size: 0 !important;
+    }
+
+    #hostedform_main input[type="radio"] + label.class-no {
+        background: url(../images/no-button.png) no-repeat center #c61e2f;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 15px;
+        width: 90px;
+        height: 28px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        font-size: 0 !important;
+    }
+
+    .form-input-section.column2 {
+        width: 100%;
+    }
+
+    .form-input-section.column2 label {
+        width: 40% !important;
+    }
+
+    .form-input-section.column2-email label {
+        width: 40% !important;
+    }
+
+    .form-input-section.column2 input[type="text"] {
+        width: 60%;
+    }
+
+    .form-input-section.column2-email input[type="text"] {
+        width: 60%;
+    }
+
+    .form-input-section.column2-email {
+        width: 100%;
+    }
+
+    #form_box label.error {
+        text-align: right;
+    }
+
+    #form_box label {
+        /* line-height: normal; */
+    }
+
+    .form-input-section {
+        margin-bottom: 15px;
+    }
+
+    .form-input-section label {
+        float: left !important;
+        width: 100% !important;
+    }
+
+    .form-input-section input[type="text"] {
+        float: left !important;
+        width: 100% !important;
+    }
+
+    .form-select-birth {
+        float: left !important;
+        width: 100% !important;
+    }
+
+    .form-input-gender {
+        float: left !important;
+        width: 100% !important;
+    }
+
+    .form-input-section select {
+        float: left !important;
+        width: 60% !important;
+    }
+
+    .form-input-gender > input[type="radio"] + label.gender-m {
+        float: none !important;
+        display: inline-block;
+    }
+
+    .form-input-gender > input[type="radio"] + label.gender-f {
+        float: none !important;
+        display: inline-block;
+    }
+
+    #form_box .error[for="zip"] {
+        bottom: -15px;
+        right: 0;
+    }
+
+    #form_box label.error {
+        bottom: -15px;
+        right: 0;
+        /* position: absolute; */
+    }
+
+    .agree-check label {
+        width: 83px !important;
+    }
+
+    .form-input-diabetes label {
+        float: none !important;
+    }
+
+    .wrapper {
+        width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+    }
+
+    .submit_button_form {
+        width: 80%;
+    }
+
+    #contentbox table tr td {
+        padding: 5px 0 !important;
+    }
+
+    #contentbox table tr td:first-child {
+        width: 30% !important;
+    }
+
+    #formtable td > label {
+        padding: 0 !important;
+    }
+
+    table#formtable tr td {
+        font-size: 10px !important;
+    }
+
+    #formtable select {
+        width: 132px;
+    }
+
+    .debthelpform select {
+        width: 42% !important;
+    }
+
+    #progress_bar_holder {
+        padding-left: 0;
+    }
+
+    .border-5 {
+        border: none;
+    }
+
+    .fixed-button {
+        padding-bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 10px;
+    }
+
+    select {
+        height: 32px;
+    }
+
+    #contentbox div#form_box form .form-select-birth .selectmonthcont select {
+        /* width: 52px !important; */
+        /* height: 32px; */
+        /* padding: 0px; */
+    }
+
+    #contentbox div#form_box form .form-select-birth .selectdaycont select {
+        width: 50px !important;
+    @charset
+        "utf-8";  /* CSS Document */
+        body {   margin: 0px auto;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        color:#000000;
+        background-image:url(../images/q9bg.jpg);
+        background-repeat:no-repeat;
+        background-position: center top;  }
+        p { margin-top:0px;  }
+        a:active{  text-decoration:none;
+        color:#ff3333;  }
+        a:visited{  text-decoration:none;
+        color:#ff3333;  }
+        a:link{  text-decoration:none;
+        color:#ff3333;  }
+        a:hover{  text-decoration:none;
+        color:#ff3333;  }    .hide {
+        display: none !important;  }      .wrapper {
+        width: 860px;
+        /*width: 1005px;*/
+        margin: 0px auto;
+        /*background-image:url(../images_survey/wallbg.jpg);   background-repeat:no-repeat;*/
+        min-height:592px;  }      #headline1{
+        /*background-color:#565656;*/
+        height:50px;  }  #infobox{
+        float:left;
+        background-image:url(../images/infobox.png);
+        background-repeat:no-repeat;
+        height:225px;
+        width:400px;
+        padding:25px 20px 25px 15px;
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size:16px;  }    #contentbox_main{
+        padding:0px 15px 0px 15px;
+        font-size:14px;  }    #contentbox{
+        /*padding: 0px 15px;*/
+        padding: 0px 20px;
+        font-size:14px;
+        text-align:justify;  }    @font-face {
+        font-family: 'Fredericka the Great';
+        font-style: normal;
+        font-weight: 400;
+        src: local('Fredericka the Great'), local('FrederickatheGreat'), url(https://fonts.gstatic.com/s/frederickathegreat/v4/7Es8Lxoku-e5eOZWpxw18t2QR9E88_XBMnxeisbi_2k.woff) format('woff');  }    .text_header1{
+        font-family:Fredericka the Great;
+        font-size:25px;
+        color:#009900;  }        #headline2{
+        /*background-image:url(../images/headerline.jpg);*/
+        background-position:bottom;
+        background-repeat:no-repeat;
+        text-align:right;
+        margin-top:4px;
+        margin-right:10px;
+        text-align:center;  }      .title_text{
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size:20px;  }  .red_text{
+        color: #FF0000;}    .blue_text{
+        color:#0099FF;}    .subtitle_text{
+        font-family:Verdana, Arial, Helvetica, sans-serif;
+        font-size:16px;  }    #footer1{
+        font-family:Arial, Helvetica, sans-serif;
+        font-size:14px;
+        color:#666666;
+        text-align:center;  }    #footer1
+        a:hover{  color:#0066FF !important;
+        text-decoration:none;  }    #footer1
+        a:link{  color:#666666;
+        text-decoration:none;  }    #footer1
+        a:visited{  color:#666666;
+        text-decoration:none;  }    #footer1
+        a:active{  color:#666666;
+        text-decoration:none;  }    #yesno_box{
+        text-align:center;  }  #yesno_text{
+        font-size:20px;  }    .yes_button{
+        cursor:pointer;
+        border:none;
+        background:transparent;
+        background-image:url(../images/yes_button.png);
+        width:120px;
+        height:50px;
+        margin-right:100px;  }    .no_button{
+        cursor:pointer;
+        border:none;
+        background:transparent;
+        background-image:url(../images/no_button.png);
+        width:120px;
+        height:50px;}    .submit_button{
+        cursor:pointer;
+        border:none;
+        background:transparent;
+        background-image:url(../images/submit_button.png);
+        background-position:center;
+        width:200px;
+        height:50px;  }    .submit_button_form, .submit_button_form_new{
+        cursor: pointer;
+        border: 3px solid;
+        background: transparent;
+        /*background-image:url(../images/submit_button_form.png);*/
+        background-position: center;
+        width: 160px;
+        height: 42px;
+        font-size: 22px;
+        background-color: #565656;
+        border-color: #e6e6af;
+        color: #fff;
+        font-weight: 800;
+        box-shadow: 0 0 10px #e6e6af;
+        text-transform: uppercase;
+        border-radius: 36px;
+        -moz-border-radius: 36px;
+        -webkit-border-radius: 36px;  }      .start_survey_button{
+        cursor:pointer;
+        border:none;
+        background:transparent;
+        background-image:url(../images/start_survey_button.png);
+        background-position:center;
+        width:186px;
+        height:31px;  }    /*.watermark {      opacity: 0.5;      z-index: -1;      color: #CCCCCC;      font-size: 165px;      position: fixed;      top: 32%;      left: 46.5%;      height: auto;      width: auto;  }*/    .watermark {
+        opacity: 0.5;
+        z-index: -1;
+        color: #CCCCCC;
+        font-size: 90px;
+        position: fixed;
+        top: 32%;
+        right: 39%;
+        height: auto;
+        width: auto;  }    @media only screen and (
+        max-width: 1366px) {       .watermark {       font-size: 80px;     }    }    #progress_bar_box{
+        width:860px;
+        height:100px;
+        background-position:top center;
+        background-repeat:no-repeat;
+        height:95px;
+        background-image:url(../images/progressbar.png);
+        margin: 0 auto;  }      #progress_bar_holder {
+        display: table-cell;
+        padding-left: 33px;
+        padding-top: 54px;
+        vertical-align: top;
+        width: 796px;  }    .cell_shade, .cell_shade_0{
+        background-color:#386837;  }    .cell_shade_1{
+        background-color:#457A3C;  }    .cell_shade_2{
+        background-color:#68932F;  }    .cell_shade_3{
+        background-color:#68932F;  }    .cell_shade_4{
+        background-color:#B9B524;  }    .cell_shade_5{
+        background-color:#B48531;  }    .cell_shade_6{
+        background-color:#AF6E1B;  }    .cell_shade_7{
+        background-color:#A52D29;  }    .cell_shade_8{
+        background-color:#A21D1B;  }    .cell_shade_9{
+        background-color:#871720;  }    .cell_noshade{
+        background-color:#CCCCCC;  }    .green_text {
+        color: #009900;  }    #form_box{    }    #form_box
+        label{   display: inline-block;
+        padding-right: 10px;
+        height: 25px;
+        font-size: 18px;
+        color: #565656;
+        line-height: 32px;  }
+        label.error {      color: red;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 0 !important;  }    #form_box
+        label.error{   color: red;
+        clear: both;
+        float: none;
+        font-size: 12px;
+        width: auto !important;  }
+        label.error{      color: red;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 0 !important;  }        /* Blue Path Edits */  .blue-header-main .monster-main1 {
+        display: inline-block; }  .blue-header-main .monster-main-mobile {
+        display: none; }  .blue-header-main
+        h2 { display: none; }  .blue-header-main
+        p { display: none; }  /* Blue Path Edits */    /* CONTENT */  .content-desktop {
+        display: block;
+        width: 600px;
+        vertical-align: middle; }  .content-desktop .home-img {
+        float: left;
+        padding-right: 35px; }  .content-desktop .text-content {
+        padding: 15px 0 0;
+        text-align: left; }  .content-desktop .text-content
+        p { font-size: 17px;
+        color: #515151; }  .content-mobile {
+        display: none; }    #contentbox #form_box {
+        width: 600px;
+        margin: 0 auto; }    .form-select-birth .selectmonthcont {
+        float: left; }  .form-select-birth .selectdaycont {
+        float: left; }  .form-select-birth .selectyearcont {
+        float: left; }  .form-select-birth .dash {
+        float: left; }    #contentbox
+        div#form_box form .form-select-birth .selectmonthcont select { width: 72px !important; }  #contentbox
+        div#form_box form .form-select-birth .selectdaycont select { width: 67px !important; }  #contentbox
+        div#form_box form .form-select-birth .selectyearcont select { width: 85px !important; }    .form-input-section {
+        clear: both;
+        margin: 0 0 5px; }  .form-input-section
+        label {   height: auto !important;
+        line-height: 22px;
+        float: left;
+        width: 35%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;  }  .form-input-section
+        input[type="text"] { float: left;
+        width: 65%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;  }  .form-input-section
+        select { float: left;
+        width: 65%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;  }  .form-select-birth >
+        select { float: none;
+        width: 20% !important; }    .more-content {
+        display: none; }  .more-content {
+        display: none; }  .form-input-gender {
+        position: relative; }  .form-input-gender
+        label.error {      float: right !important;
+        position: absolute;
+        right: 0;
+        top: 2px;  }  #form_box .error[
+        for="email"] { padding: 0;
+        text-align: right;
+        width: auto !important; }  #form_box .error[
+        for="zip"] { padding: 0;
+        text-align: right;
+        width: auto !important; }  .fixed-button {
+        display: inline; }    .yes-no-desktop {
+        display: inline; }  .yes-no-mobile {
+        display: none; }  .confirm-form-desktop {
+        display: inline; }  .confirm-form-mobile {
+        display: none; }    #formtable >
+        tbody > tr > td > input[name="phone3"] { width: 40px !important; }
+        table#formtable tr td:first-child { width: 50%; }    .the-progress {
+        background-color: #8dc562;
+        display: none;
+        height: 100%;
+        position: absolute;
+        z-index: 1;  }    .exit-content {
+        float: left;
+        margin: 0 0 15px; }  .exit-content-inner {
+        width: 80%;
+        float: left; }  .exit-content-inner
+        h3 { margin: 0; }  .exit-content-input {
+        width: 20%;
+        float: left; }    .pink {
+        color: #da326f; }    #contentbox
+        iframe#iff-parentiframe { height: 1500px; }    #formtable
+        td > label { padding-left: 14px;
+        position: relative;
+        display: inline-block; }  /*label label.error { left: 0; position: absolute !important; }*/    /* RADIO BUTTON */    #hostedform_main
+        input[type="radio"] { display: none; }  #hostedform_main
+        input[type="radio"] + label.class-yes {   background: url(../images/yes-button.png) no-repeat center #458b04;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 30px;
+        width: 50px;
+        height: 28px;
+        font-size: 0 !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;  }  #hostedform_main
+        input[type="radio"] + label.class-no {   background: url(../images/no-button.png) no-repeat center #c61e2f;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 30px;
+        width: 50px;
+        height: 28px;
+        font-size: 0 !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;  }  /*#contentbox > div > input[type="radio"],  #contentbox > div > div > input[type="radio"],  #contentbox > form > div > input[type="radio"],  #contentbox > form > div > div > input[type="radio"],  #formtable > tbody > tr > td > input[type="radio"],  #formtable > tbody > tr > td > div > input[type="radio"] {   display: none;  }*/  #contentbox >
+        div > input[type="radio"] + label.class-yes,  #contentbox > div > div > input[type="radio"] + label.class-yes,  #contentbox > form > div > input[type="radio"] + label.class-yes,  #contentbox > form > div > div > input[type="radio"] + label.class-yes,  #formtable > tbody > tr > td > input[type="radio"] + label.class-yes {   background: url(../images/yes-button.png) no-repeat center #458b04;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 30px;
+        width: 50px;
+        height: 28px;
+        font-size: 0 !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;  }  #formtable >
+        tbody > tr > td > div > input[type="radio"] + label.class-yes {   background: url(../images/submit-button.png) no-repeat center #458b04;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 30px;
+        width: 50px;
+        height: 28px;
+        font-size: 0 !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;  }  #contentbox >
+        div > input[type="radio"] + label.class-no,  #contentbox > div > div > input[type="radio"] + label.class-no,  #contentbox > form > div > input[type="radio"] + label.class-no,  #contentbox > form > div > div > input[type="radio"] + label.class-no,  #formtable > tbody > tr > td > input[type="radio"] + label.class-no {   background: url(../images/no-button.png) no-repeat center #c61e2f;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 30px;
+        width: 50px;
+        height: 28px;
+        font-size: 0 !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;  }  #formtable >
+        tbody > tr > td > div > input[type="radio"] + label.class-no {   background: url(../images/cancel-button.png) no-repeat center #c61e2f;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 30px;
+        width: 50px;
+        height: 28px;
+        font-size: 0 !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;  }    /* RADIO BUTTON */    .free-stuff-continue {
+        text-align: center; }  .free-stuff-continue
+        input[type="button"] {   display: inline-block;
+        background: url("../images/submit_button_form.png") no-repeat;
+        width: 162px !important;
+        height: 44px !important;
+        border: none;
+        cursor: pointer;
+        font-size: 0;
+        line-height: 0;  }    /* NEW STYLES */  #form_box2 {
+        width: 350px;
+        margin: 0px auto 20px; }  .desktop-tcpa-1 {
+        display: block;
+        text-align: left;
+        font-size: 10px;
+        line-height: 13px;
+        width: 490px;
+        margin: 0 auto; }  /* NEW STYLES */    /* ETHNICITY */  .form-main-gender >
+        label { margin-top: 10px; }  .form-input-gender >
+        label {   padding: 0 !important;
+        float: none;
+        cursor: pointer;
+        font-size: 0;
+        width: auto !important;
+        height: auto !important;  }    .form-input-gender >
+        input[type=radio] + label.gender-m {   width: 84px !important;
+        height: 34px !important;
+        background: url(../images/gender_buttons.png) no-repeat 0 0;  }  .form-input-gender >
+        input[type=radio]:checked + label.gender-m {   background-position: 0 -34px;  }  .form-input-gender >
+        input[type=radio] + label.gender-f {   width: 84px !important;
+        height: 34px !important;
+        background: url(../images/gender_buttons.png) no-repeat -84px 0;  }  .form-input-gender >
+        input[type=radio]:checked + label.gender-f {   background-position: -84px -34px;  }  /*.form-input-gender > input[type=radio].error + label { border: 2px solid #ff0000; }*/  .form-input-diabetes {
+        position: relative; }    .form-input-diabetes >
+        label {   padding: 0 !important;
+        float: none;
+        cursor: pointer;
+        font-size: 0;
+        width: auto !important;
+        height: auto !important;  }    .form-input-diabetes >
+        input[type=radio] { display: none; }  .form-input-diabetes >
+        input[type=radio] + label.diabetes-yes {   width: 84px !important;
+        height: 34px !important;
+        background: url(../images/no_yes_button.png) no-repeat 0 0;  }  .form-input-diabetes >
+        input[type=radio]:checked + label.diabetes-yes {   background-position: 0 -34px;  }  .form-input-diabetes >
+        input[type=radio] + label.diabetes-no {   width: 84px !important;
+        height: 34px !important;
+        background: url(../images/no_yes_button.png) no-repeat -84px 0;  }  .form-input-diabetes >
+        input[type=radio]:checked + label.diabetes-no {   background-position: -84px -34px;  }  /*.form-input-diabetes > input[type=radio].error + label { border: 2px solid #ff0000; }*/    /*  #formtable > tbody > tr > td > label.formtable-yes { margin-top: 3px; vertical-align: middle; padding: 0; cursor: pointer; }  #formtable > tbody > tr > td > label.formtable-no { margin-top: 3px; vertical-align: middle; padding: 0; cursor: pointer; }    #formtable > tbody > tr > td > input[type="radio"] + label.formtable-yes {   width: 84px !important;   height: 34px !important;   background: url(../images/diabetes_buttons.png) no-repeat 0 0;  }  #formtable > tbody > tr > td > input[type="radio"]:checked + label.formtable-yes {   background-position: 0 -34px;  }  #formtable > tbody > tr > td > input[type="radio"] + label.formtable-no {   width: 84px !important;   height: 34px !important;   background: url(../images/diabetes_buttons.png) no-repeat -84px 0;  }  #formtable > tbody > tr > td > input[type="radio"]:checked + label.formtable-no {   background-position: -84px -34px;  }  */    /* CLINICAL QUESTIONS */  .clinical-questions {
+        padding: 20px 0;
+        width: 600px; }  .clinical-questions
+        h2 { color: #1d83cb;
+        margin-bottom: 20px; }  .clinical-questions
+        h3 { margin-bottom: 20px; }  .new-question-indi {
+        padding: 10px 0;
+        border-bottom: 1px solid #d4d4d4; }  .new-question-indi >
+        p { width: 65%;
+        float: left;
+        color: #333;
+        font-weight: 400;
+        margin-bottom: 5px; }    .new-question-input { }  .new-question-input >
+        input[type="radio"] { display: none; }  .new-question-input >
+        label.new-question-yes { display: inline-block;
+        vertical-align: middle;
+        font-size: 0;
+        padding: 0;
+        cursor: pointer; }  .new-question-input >
+        label.new-question-no { display: inline-block;
+        vertical-align: middle;
+        font-size: 0;
+        padding: 0;
+        cursor: pointer; }  .new-question-input >
+        input[type="radio"] + label.new-question-yes {   width: 84px !important;
+        height: 34px !important;
+        background: url(../images/diabetes_buttons.png) no-repeat 0 0;  }  .new-question-input >
+        input[type="radio"]:checked + label.new-question-yes {   background-position: 0 -34px;  }  .new-question-input >
+        input[type="radio"] + label.new-question-no {   width: 84px !important;
+        height: 34px !important;
+        background: url(../images/diabetes_buttons.png) no-repeat -84px 0;  }  .new-question-input >
+        input[type="radio"]:checked + label.new-question-no {   background-position: -84px -34px;  }  /* CLINICAL QUESTIONS */    /* NEW LEAD REACTOR CSS START */  .click-yes {
+        background: url(../images/yes-button.png) no-repeat center #458b04;
+        /*color: #fff;*/
+        display: inline-block;
+        padding: 24px 55px;
+        /*width: 50px;*/
+        /*height: 28px;*/
+        font-size: 0 !important;
+        /*text-transform: uppercase;*/
+        /*font-weight: 700;*/
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        border: none;  }    .click-no {
+        background: url(../images/no-button.png) no-repeat center #c61e2f;
+        color: #fff;
+        display: inline-block;
+        padding: 10px 30px;
+        width: 50px;
+        height: 28px;
+        font-size: 0 !important;
+        text-transform: uppercase;
+        font-weight: 700;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        border: none;  }    .click-submit {
+        background: url(../images/submit-button.png) no-repeat center #458b04;
+        display: inline-block;
+        padding: 24px 55px;
+        font-size: 0 !important;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        border: none;  }    .click-cancel {
+        background: url(../images/cancel-button.png) no-repeat center #458b04;
+        display: inline-block;
+        padding: 24px 55px;
+        font-size: 0 !important;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin: 0 5px 10px;
+        cursor: pointer;
+        vertical-align: middle;
+        border: none;  }    .style1 {
+        color: #FF0000;
+        font-weight: bold;  }  .redtext{
+        color: #FF0000;  }
+        input[type="text"].error{   border:#FF0000 thin solid;  }
+        select.error{   border:#FF0000 thin solid;  }
+        input[type="checkbox"].error{   width:15px;
+        border:#FF0000 thin solid;
+        background-color:#FF0000;
+        background:#FF0000;  }
+        select.error, textarea.error, input[type="text"].error{ border:#FF0000 thin solid; }
+        input[type="checkbox"].error + label { color: red; }
+        label.error{      color: red;
+        font-size: 12px;
+        margin-left: 5px;
+        padding-left: 0 !important;  }  /*.form-input-gender > input[type=radio] { display: none; }*/    /*.form-input-questions > input[type=radio] { display: none; }  .form-input-questions > input[type=radio] + label.diabetes-yes {   width: 84px !important;   height: 34px !important;   background: url(../images/no_yes_button.png) no-repeat 0 0;  }  .form-input-questions > input[type=radio]:checked + label.diabetes-yes {   background-position: 0 -34px;  }  .form-input-questions > input[type=radio] + label.diabetes-no {   width: 84px !important;   height: 34px !important;   background: url(../images/no_yes_button.png) no-repeat -84px 0;  }  .form-input-questions > input[type=radio]:checked + label.diabetes-no {   background-position: -84px -34px;  }  .form-input-questions > input[type=radio].error + label { border: 2px solid #ff0000; }    .form-input-questions > label {   padding: 0 !important;   float: none;   cursor: pointer;   font-size: 0;   width: auto !important;   height: auto !important;  }*/  /* FOR INTRO */  .submit-intro-btn {
+        background: #565656;
+        font-size: 25px !important;
+        color: #fff;
+        line-height: normal;
+        border: 0;
+        height: auto;
+        width: 185px;
+        padding: 17px 0;
+        font-weight: 800;
+        border-radius: 0;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;  }  /**/  .the-submit-btn {
+        background: #565656;
+        color: #fff;
+        border-radius: 30px;
+        -moz-border-radius: 30px;
+        -webkit-border-radius: 30px;
+        padding: 0px 20px;
+        font-weight: 800;
+        font-size: 24px;
+        border: #FFFFCF 5px solid;
+        text-transform: uppercase;  }
+        input[type="radio"], input[type="checkbox"] {   width: 22px;
+        height: 22px;
+        -webkit-border-radius: 22px;
+        -moz-border-radius: 22px;
+        border-radius: 22px;
+        border: 1px solid #bbb;  }    .form-input-section.agree-terms {
+        font-size: 18px;
+        color: #565656;
+        text-align: left;  }    .form-input-section
+        input[type="text"] {      border: 2px solid #565656;
+        width: 180px;
+        padding: 8px;
+        background: #fff;
+        float: none;  }    .form-input-section
+        select {      display: inline-block;
+        float: none;
+        padding: 8px;
+        border: 2px solid #565656;
+        background: #fff;  }    .filter_questions_here, .form-input-gender {
+        font-size: 18px;
+        color: #565656;  }    /* 05/12/16 */  .form-input-filter_question >
+        input[type=radio] { display:none;}  .filter_question-yes, .filter_question-no {
+        font-size:0px !important;}  .form-input-filter_question >
+        input[type=radio] + label.filter_question-yes {    width: 84px !important;
+        height: 34px !important;
+        background: url(../images/no_yes_button.png) no-repeat 0 0;
+        margin-right: 5px;  }  .form-input-filter_question >
+        input[type=radio]:checked + label.filter_question-yes {    background-position: 0 -34px;  }  .form-input-filter_question >
+        input[type=radio] + label.filter_question-no {    width: 84px !important;
+        height: 34px !important;
+        background: url(../images/no_yes_button.png) no-repeat -84px 0;
+        margin-right: 5px;  }  .form-input-filter_question >
+        input[type=radio]:checked + label.filter_question-no {    background-position: -84px -34px;  }    .form-input-filter_question >
+        input[type=radio].error + label { border: 2px solid #ff0000; }    .form-input-section .question {
+        font-size: 18px;
+        color: #565656;  }    .form-input-section {
+        position: relative;
+        margin-bottom: 15px;  }    .form-select-birth {
+        display: inline-block;  }    .form-input-gender >
+        input[type=radio] { display: none; }    #form_box
+        label.error {      float: none;
+        font-size: 12px;
+        width: auto !important;  }    /* AGREE CHECK */  .agree-check
+        label { cursor: pointer;
+        padding: 0 !important;
+        margin-right: 10px;
+        display: inline-block;
+        float: left !important;
+        width: 83px !important;
+        height: 34px !important;
+        line-height: normal;
+        font-size: 0; }  .agree-check
+        input[type="checkbox"] { display: none; }  .agree-check
+        input[type="checkbox"] + label { background: url(../images/i-agree.png) no-repeat 0 0; }  .agree-check
+        input[type="checkbox"]:checked + label { background-position: 0 -34px; }  .agree-check
+        input[type="checkbox"].error + label { border: 2px solid #ff0000;
+        background: url(../images/i-agree.png) no-repeat 0 0; }  /* AGREE CHECK */    .form-input-gender >
+        input[type=radio] + label.gender-m {   width: 84px !important;
+        height: 34px !important;
+        background: url(../images/gender_buttons.png) no-repeat 0 0;  }  .form-input-gender >
+        input[type=radio]:checked + label.gender-m {   background-position: 0 -34px;  }  .form-input-gender >
+        input[type=radio] + label.gender-f {   width: 84px !important;
+        height: 34px !important;
+        background: url(../images/gender_buttons.png) no-repeat -84px 0;  }  .form-input-gender >
+        input[type=radio]:checked + label.gender-f {   background-position: -84px -34px;  }  .form-input-gender >
+        input[type=radio].error + label { border: 2px solid #ff0000; }  /* NEW LEAD REACTOR CSS END */      /*Additional css*/  .outer-left {
+        background: #EFB041;
+        height: 100%;
+        display: block;
+        width: 4%;
+        position: fixed;
+        left: 18%;  }    .outer-right {
+        background: #EFB041;
+        height: 100%;
+        display: block;
+        width: 4%;
+        position: fixed;
+        right: 18%;  }    .paginator {
+        margin-top: 600px;
+        white-space:nowrap;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg);
+        color: #fff;  }    .paginator-right {
+        margin-top: 135px;
+        white-space:nowrap;
+        -webkit-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        transform: rotate(90deg);
+        color: #fff;  }
+        height:;
+    }
+
+    #contentbox div#form_box form .form-select-birth .selectyearcont select {
+        width: 65px !important;
+    }
+
+    .form-select-birth label.error {
+        font-size: 9px !important;
+    }
+}
